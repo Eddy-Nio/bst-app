@@ -25,7 +25,6 @@ ActividadColaborativa/
 ├── README.md
 ├── main.py
 ├── config.py
-├── logs/
 ├── models/
 │   ├── __init__.py
 │   └── trees.py
@@ -42,8 +41,8 @@ ActividadColaborativa/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bst-applications.git
-cd ActividadColaborativa
+git clone https://github.com/Eddy-Nio/bst-app.git
+cd bst-app
 ```
 
 2. Run the application:
@@ -150,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Eddy-Nio - [ebecerra@ucompensar.edu.co](mailto:ebecerra@ucompensar.edu.co)
 
 ## Acknowledgments
 
