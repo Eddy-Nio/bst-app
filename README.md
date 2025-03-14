@@ -12,17 +12,18 @@ A Python console application that demonstrates the use of Binary Search Trees (B
 
 ## Prerequisites
 
-Before running the application, make sure you have Python 3.8+ installed and the following packages:
-
-```bash
-pip install colorama
-```
+Before running the application, make sure you have :
+- Python 3.8+
+- Make build utility
+- Git
 
 ## Project Structure
 
 ```
-ActividadColaborativa/
+bst-app/
 ├── README.md
+├── Makefile
+├── run.py
 ├── main.py
 ├── config.py
 ├── models/
@@ -44,6 +45,80 @@ ActividadColaborativa/
 git clone https://github.com/Eddy-Nio/bst-app.git
 cd bst-app
 ```
+## Installing Make
+
+#### macOS
+Make comes pre-installed with Xcode Command Line Tools. To install:
+```bash
+xcode-select --install
+```
+
+#### Windows
+Install using one of these methods:
+```bash
+# Using Chocolatey
+choco install make
+
+# Using Scoop
+scoop install make
+
+# Using Windows Subsytem for Linux (WSL)
+wsl --install
+sudo apt-get update
+sudo apt-get install make
+```
+
+#### Linux
+```bash
+# Debian/Ubuntu
+sudo apt-get update
+sudo apt-get install make
+
+# Fedora
+sudo dnf install make
+
+# centOS/RHEL
+sudo yum install make
+```
+### Verifying Installation
+```bash
+make --version
+```
+
+## Quick Start
+
+## Using Make (Recommended)
+
+```bash
+# Install dependencies and run
+make run
+
+# Run test
+make test
+
+# Clean up
+make clean
+```
+
+### Manual Instalation
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python run.py
+```
+
 
 2. Run the application:
 ```bash
